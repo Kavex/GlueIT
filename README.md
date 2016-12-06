@@ -10,28 +10,25 @@ I'm not the original maker and the site you could once get it from has been long
 GlueIT 1.04 by Yves Plouffe, July 2006
 
 
-Version History
+### Version History
 
-...........................................................
 V 1.02 April 2006
 
   Core re-write using .NET 2.0
   Additional file format support, .PNG .JPG .BMP
   Streamlined interface as per user requests
 
-...........................................................
 V 1.04 July 4 2006
 
   Added a Project system, user request
   Optimizations and minor bug fixes
 
-...........................................................
 V 1.06 July 5 2006
 
   Further enhanced .PNGs support, now preserves all transparency information
   
-...........................................................
-
+-----------
+```
 Getting started,
 
 Launch GlueIT,
@@ -57,3 +54,4 @@ Thanks, Yves,
 aka Gunner, Kreegrr
 
 https://www.garagegames.com/community/forums/viewthread/29466
+```
