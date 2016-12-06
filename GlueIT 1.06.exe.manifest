@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="GlueIT 1.06.exe" version="1.0.0.7" publicKeyToken="d83c25f1d3e1b0e0" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="wi0124-48.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GlueIT 1.06" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GlueIT 1.06.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GlueIT 1.06.exe" size="61440">
+      <assemblyIdentity name="GlueIT 1.06" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>eXN+ukrgTcairg24Foz4nYv/ldA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="wi0124-48.ico" size="9662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fws6sI6z3ii7gZ7ctQ9CSRLDui4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MCC\Yves" issuerKeyHash="f43f23ee821140da0f36d6dd105a5be19ede94c5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>2Vs9Daq6zq0yAH0th47dVObrTV8=</DigestValue></Reference></SignedInfo><SignatureValue>1ziz2cTKcrqV2XBPhNv6DCAouWE94oTDPTfDjUUod7Idqkv1NfeVOJ716XVpg70W3Z5yCzqjuIlNVCA3eO9DrqbOqiwU+1428ETzIxIAYh6OLlpelQRQ1nkao/miD9KEPRlVJlk4L/0hA/bkQGbO94bRo2spm1KsNTt5a9igz9E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2QeFxkWL1xb39PTgnU5naEyL9E+IEO5LCkjco7PMokYEaYdjS92t+IGbQe06eOagWd9M6qxSh1tYqJv4RoCq0aHbyKUykSeRCejY8mYnEuTMZLzSnrsiDLCLThjdJsZXoT4r7pv5HToORP3T4W27DlkGxcNs4o1diV7+zIrmClM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5f4debe654dd8e872d7d0032adcebaaa0d3d5bd9" Description="" Url=""><as:assemblyIdentity name="GlueIT 1.06.exe" version="1.0.0.7" publicKeyToken="d83c25f1d3e1b0e0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MCC\Yves</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gohHVDQmsneJtozN+U/6seV0TnM=</DigestValue></Reference></SignedInfo><SignatureValue>OXBQE7nBdrglLMDeQRz8NZX8+G0Tg8tUB+Gw+SoBT1TiyZvXfT+SdFeMr1AtxVnuSkx8MtA4mVGL5uTBiHnhWXMNz0j8lGp3/2xmP+3rq/aUaanKHTpwESDLfWZeROCoMlq8feMCNlQTE5GAoCFiUv6t+vtgCduvA2gFRpVprjE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2QeFxkWL1xb39PTgnU5naEyL9E+IEO5LCkjco7PMokYEaYdjS92t+IGbQe06eOagWd9M6qxSh1tYqJv4RoCq0aHbyKUykSeRCejY8mYnEuTMZLzSnrsiDLCLThjdJsZXoT4r7pv5HToORP3T4W27DlkGxcNs4o1diV7+zIrmClM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBsTCCAR6gAwIBAgIQ0oUSO5TUNrVPxIliXAk6mTAJBgUrDgMCHQUAMBsxGTAXBgNVBAMeEABNAEMAQwBcAFkAdgBlAHMwHhcNMDYwNDE5MTk0MDI0WhcNMDcwNDIwMDE0MDI0WjAbMRkwFwYDVQQDHhAATQBDAEMAXABZAHYAZQBzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZB4XGRYvXFvf09OCdTmdoTIv0T4gQ7ksKSNyjs8yiRgRph2NL3a34gZtB7Tp45qBZ30zqrFKHW1iom/hGgKrRodvIpTKRJ5EJ6NjyZicS5MxkvNKeuyIMsItOGN0mxlehPivum/kdOg5E/dPhbbsOWQbFw2zijV2JXv7MiuYKUwIDAQABMAkGBSsOAwIdBQADgYEAw53KSC/FiKguVxGzvsfIOZSk8WTHxsUfspAKSsHHJ1oSL4CZywrWwWElcSH+6aVy28MTtqrsbiYUdED26xHRjAJelpG1BH60PGEEOZ97IH1UgW3mgAxV5JJrS5o1g1t9I5+B/6Rhqnsy39emzIUpGekJHviRAFenZblMf86qv5A=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
