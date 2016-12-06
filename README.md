@@ -1,3 +1,6 @@
+![alt text](/img/screenshot.png "Screenshot")
+
+
 This is an old SpriteSheet Tool which has floated around the internet for years now. 
 I'm not the original maker and the site you could once get it from has been long been gone so I upload it here to preserve it.
 
