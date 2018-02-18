@@ -4,6 +4,11 @@
 This is an old SpriteSheet Tool which has floated around the internet for years now. 
 I'm not the original maker and the site you could once get it from has been long been gone so I upload it here to preserve it.
 
+
+For those that have thanked me for GlueIT, You're welcome :3
+
+<details>
+ <summary>README.TXT</summary>
 -----------
 ### Original README.TXT
 
@@ -45,13 +50,6 @@ Once Glued, hit the preview anim buton.
 
 To save to a new format, .PNG .BMP, .JPG, just make sure you use the pulldown filter selector in the save dialog box, GlueIT will do the appropriate conversion.
 
-That's it.
-
-I can be reached at yves_plouffe@yahoo.ca
-
-Thanks, Yves,
-
-aka Gunner, Kreegrr
-
 https://www.garagegames.com/community/forums/viewthread/29466
 ```
+</details>
