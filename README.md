@@ -4,6 +4,7 @@
 This is an old SpriteSheet Tool which has floated around the internet for years now. 
 I'm not the original maker and the site you could once get it from has been long been gone so I upload it here to preserve it.
 
+Feel Free to download GlueIT here: https://github.com/Kavex/GlueIT/releases/download/1.06/GlueIT.v1.06.exe
 
 For those that have thanked me for GlueIT, You're welcome :3
 
