@@ -1,3 +1,7 @@
+> ## Note: https://github.com/Kavex/Spritesheet-Maker has been made to replace GlueIT. It's has far newer features.
+
+
+
 ![alt text](/img/screenshot.png "Screenshot")
 
 
